@@ -77,7 +77,7 @@ c = -1.345e-10
 Floats are represented as double precision using the native CPU representation [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754).
 This is the same as the `double` type in the programming language C.
 
-> 17 digits or precision
+> 17 digits of precision  
 > Exponent from -308 to 308
 
 Be aware that floating point numbers are inexact when representing decimals.
@@ -234,9 +234,9 @@ The output should look something like this:
 4 10736.44 497581.83
 5 13420.55 496970.98
 ...
-308 874705.88 2971.43
-309 877389.99 299.7
-310 880074.1 -2383.16
+308 874705.88 3478.83
+309 877389.99 809.21
+310 880074.1 -1871.53
 Total paid 880074.1
 Months 310
 ```
